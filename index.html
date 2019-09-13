@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Currency exchange</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency exchange</h1>
+      <form id="formExchange">
+        <div class="raw">
+          <div class="col col-left">
+            <div class="lable">From</div>
+            <select id="selectFrom"> </select>
+          </div>
+          <div class="col col-right">
+            <div class="lable">Rate</div>
+            <input id="inputRate" type="text" readonly />
+          </div>
+        </div>
+        <div class="raw">
+          <div class="col col-left">
+            <div class="lable">To</div>
+            <select id="selectTo"> </select>
+          </div>
+          <div class="col col-right">
+            <div class="lable">Value</div>
+            <input id="inputConvert" type="number" min="0" />
+          </div>
+        </div>
+        <div class="raw">
+          <div class="col">
+            <div id="resultArea" class="result">
+              <div id="resultPart1"></div>
+              <div id="resultPart2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="raw">
+          <div class="col">
+            <button type="submit" id="btnCount">Count</button>
+            <button id="btnClear">Clear</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

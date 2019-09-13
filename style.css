@@ -1,0 +1,57 @@
+* {
+    color: bisque;
+  }
+  .container {
+    margin: 0 auto;
+    width: 350px;
+    background-color: green;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+  }
+  
+  .col select {
+    width: 100px;
+    color: black;
+  }
+  .col option {
+    color: black;
+  }
+  .col input {
+    width: 100px;
+    color: black;
+  }
+  .col {
+    display: inline-block;
+  }
+  .raw {
+    margin-top: 10px;
+  }
+  .raw:last-child {
+    margin-bottom: 30px;
+  }
+  .lable {
+    width: 50px;
+    float: left;
+  }
+  .result {
+    width: 300px;
+    height: 60px;
+    background-color: #ccc;
+    margin-top: 20px;
+    text-align: left;
+  }
+  #resultPart1 {
+    color: black;
+  }
+  #resultPart2 {
+    color: black;
+  }
+  button {
+    color: black;
+  }
+  .error {
+    border-color: red;
+    box-shadow: 1px 1px 10px red;
+  }
+  
